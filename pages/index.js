@@ -23,7 +23,7 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="https://pacifico.club" className={styles.card}>
             <h3>We're streaming live &rarr;</h3>
-            <p>We've curating the future of music on a Raspberri Pi</p>
+            <p>We've been curating the future of music on a radio in a Raspberri Pi</p>
           </a>
 
           <a href="https://distrokid.com/hyperfollow/seeders/waiting-for-the-job-is-done" className={styles.card}>
