@@ -5,7 +5,12 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>BUENO</title>
+        <meta
+            key="description"
+            name="description"
+            content="We're an art lab creating audiovisual and cinematic experiences using any media available."
+          />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -23,7 +28,7 @@ export default function Home() {
 
           <a href="https://distrokid.com/hyperfollow/seeders/waiting-for-the-job-is-done" className={styles.card}>
             <h3>The Seeders &rarr;</h3>
-            <p>Their first EP "The road not taken" coming on November</p>
+            <p>Their first EP "The Road Not Taken" coming on November 2020</p>
           </a>
         </div>
       </main>
